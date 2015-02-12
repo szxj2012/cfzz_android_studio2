@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edittext3"
+        android:text="edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:id="@+id/button1"
+        />
+    <fragment
+        android:name="com.fragment.xj.learnfragment.MainActivity$PlaceholderFragment"
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button2"
+        android:id="@+id/button2"
+        android:layout_gravity="center" />
+
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="edittext1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button3"
+            android:id="@+id/button3"
+        />
+    </LinearLayout>
+
+</LinearLayout>
