@@ -1,0 +1,13 @@
+/*
+ * 实现interestingEvent接口，事件处理类
+ */
+public class CallMe implements InterestingEvent{
+    
+	
+	@Override
+	public void interestingEvent(String str) {
+		// TODO Auto-generated method stub
+		System.out.print("--cube-- interestingEvent");
+	}
+   
+}
